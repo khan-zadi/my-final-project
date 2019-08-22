@@ -1,0 +1,164 @@
+*{
+    font-family: 'Dosis', sans-serif;}
+.top{background-color: rgba(95, 45, 14, 0.842);}
+.body{background-attachment: fixed;background-position: center;background-repeat: no-repeat;}
+.i{margin-right: 10px;}
+.ic{ margin-right: 5px;}
+.ico{  margin-right: 5px;}
+.icon{margin-right: 5px;}
+.icons{margin-left: 20px}
+.logo{margin-top: 10px;margin-left: 10px;}
+.logo1{margin-top: 70px;}
+.menu{margin-top: 60px;font-size: 20px;margin-left: 190px;}
+.menu .navbar-default{background: rgba(95, 45, 14, 0.842);color: white;margin-right: 10px;
+margin-left: 130px;border: none;}
+.menu .navbar-nav li a:hover{color: white;border: 1px solid white;transition: 1s ease;}
+.wel{background:url("C:/Users/aaa/Desktop/final project/Images/contact/123.PNG");
+background-repeat:no-repeat;background-position:left; background-color: rgba(95, 45, 14, 0.842);margin-top: 20px;
+border: 1px solid white;}
+.wel h1{font-size: 70px;color: white;text-align: center;margin-top:10px;}
+.wel p{padding-top:10px;font-size: 20px;color: white;text-align: center;padding-left: 10px;margin-top:10px;}
+.heading h1{font-size: 70px;background: rgba(95, 45, 14, 0.842);color: white;margin-top:1px;border: 1px solid black;}
+.call .thumbnail{margin-top: 10px;background-color: rgba(128, 128, 128, 0.657);width: 330px;}
+.thumbnail .idd{width: 400px;height: 300px;padding-top: 30px;margin: 5px;border: 5px solid rgb(0, 0, 0);
+width: 310px;height: 300px;padding: 1px;transition: 0.9s ease 0s;}
+.idd:hover{transform: scale(1.1);}
+.aboutpic img{padding-top: 20px;width: 1430px;height: 800px;}
+/* ALL FOOTER */
+.footer{background-color:rgba(51, 51, 51, 0.712);margin-top: 150px;padding: 20px 0;}
+.footer h1{color: white;font-size: 40px;padding-top: 2px;letter-spacing: 2px;text-decoration: underline;}
+.footer p{font-size:20px;padding-top: 10px;color: white;letter-spacing: 2px;}
+.footer h2{color: white;padding-top: 2px;letter-spacing: 2px;padding-left: 200px;text-decoration: underline;}
+.footer ol li{list-style: none;padding-left: 160px;margin-top:10px;}
+.footer ol li a{color: white;font-size: 20px;letter-spacing: 2px}
+.footer ol li a:hover{color: rgba(233, 106, 27, 0.842);font-size: 20px;}
+.footer .p{font-weight: bold;font-size: 20px;padding-top: 10px;padding-right: 30px;letter-spacing: 1px;
+color: rgb(192, 185, 185);}
+/* MENU FOOTER */
+.footer1{background-color:rgba(51, 51, 51, 0.712);margin-top: 800px;padding: 20px 0;}
+.footer1 h1{color: white;font-size: 40px;padding-top: 2px;letter-spacing: 2px;text-decoration: underline;}
+.footer1 p{font-size:20px;padding-top: 10px;color: white;letter-spacing: 2px;}
+.footer1 h2{color: white;padding-top: 2px;letter-spacing: 2px;padding-left: 200px;text-decoration: underline;}
+.footer1 ol li{list-style: none;padding-left: 160px;margin-top:10px;}
+.footer1 ol li a{color: white;font-size: 20px;letter-spacing: 2px}
+.footer1 ol li a:hover{color: rgba(233, 106, 27, 0.842);font-size: 20px;}
+.footer1 .p{font-weight: bold;font-size: 20px;padding-top: 10px;padding-right: 30px;letter-spacing: 1px;
+color: rgb(192, 185, 185);}
+
+/* MENU CSS */
+.picture{padding: 20px 0; margin-left: 20px;transition: 1s;cursor: pointer;}
+.picture h2 h3{margin-left: 300px;}
+.picture:hover{transform: scale(1.1);}
+.title-box{margin-top: 20px;background-color: rgba(95, 45, 14, 0.842);color: white;width: 180px;
+padding: 4px 10px;height: 50px;margin-bottom: 10px;display: flex;}
+.title-box h2{font-size:25px;margin-bottom: 50px;font-weight: bold;}
+.title-box h2:hover{transform: scale(1.1);}
+.title-box::after{content:' ';border-top: 50px solid rgba(95, 45, 14, 0.842);border-right: 50px solid transparent;
+position: absolute;display: flex;margin-top: -4px;margin-left: 170px;}
+.cafe{font-size: 25px;font-weight: bold;}
+.form{padding-top: 10px;margin: 10px;}
+.form .la{font-size: 25px;font-weight: bold;margin:20px;}
+.form #pro{width: 250px;margin-left: 10px;height: 40px; font-weight: bold; font-size: 20px;}
+.form .la2{font-size: 25px;font-weight: bold;margin-left:50px;}
+.form #qun{width: 250px;margin-left: 55px;height: 40px;}
+.form .la3{font-size: 25px;font-weight: bold;margin-left: 80px;}
+.form #rupee{width: 250px;margin: 20px;margin-left: 75px;height: 40px; font-weight: bold; font-size: 20px;}
+.form .but{font-size: 25px;margin-left: 150px;margin-top: 20px;padding: 10px;}
+.form .but:hover{background-color: rgba(95, 45, 14, 0.842);color: white;}
+.box #card{margin-top: 20px;margin-left: 80px;width: 400px;margin-right: 600px;padding: 50px;border: 2px solid;
+background-color: rgba(128, 128, 128, 0.287);}
+th,td,tr{border: 1px solid; font-weight: bold; font-size: 15px;}
+.shop{font-weight: bold; font-size: 20px; padding:10px; margin-left:150px;top: 100px;}
+.shop:hover{background-color:rgba(95, 45, 14, 0.842);color: white; }
+.box{ border: 2px solid black;top: 10px;width: 550px;height: 1000px; margin-left: 400px;}
+.box:hover{background-color: rgba(233, 106, 27, 0.274); color: black;}
+.inner h1{font-size: 50px;padding-left: 100px;padding-top: 20px;}
+.inner h1:hover{font-size: 60px;text-decoration: underline;transition: 0.9s;}
+.image-caption{font-size: 50px;color: black;}
+/* GALLERY */
+.gallery{padding-left: 60px;margin: 100px 60px;}
+.gallery img{border: 5px solid rgb(170, 0, 0);width: 230px;height: 200px;padding: 2px;filter: grayscale(100%);
+transition: 0.9s;}
+.gallery img:hover{filter: grayscale(0);transform: scale(1.1);}
+/* CONTACT */
+.back{background:url("C:/Users/aaa/Desktop/final project/Images/contact/123.PNG");
+background-repeat:repeat;background-position: right; background-color: rgba(95, 45, 14, 0.842);margin-top: 20px;
+border: 1px solid white;}
+.back .con{font-size: 70px;color: white;text-align: center;margin-top:10px;}
+.back .cont{font-size: 40px;color: white;margin-top:10px;text-align: center;text-decoration: underline;}
+#location{padding:10px;height: 600px;width: 1200px;margin-top: 10px;padding-left: 200px}
+.det{width: 500px;height: 650px;margin-top: 100px;padding-left: 20px;margin-left: 20px;
+background-color:rgba(95, 45, 14, 0.842);border: 1px solid white;}
+.h1 legend{font-size: 50px;font-family: cursive;text-align: center;font-weight: bold;color: white;}
+#mainn{width: 400px;height:30px;margin: 20px;font-weight: bold;font-family: monospace;font-style: italic;font-size: 20px;}
+.mainn{margin: 25px;width:400px;height: 200px;font-weight: bold;font-family: monospace;font-style: italic;font-size: 20px;}
+#myform{font-size: 25px;padding: 10px;margin: 30px;color: rgb(255, 255, 255);background-color:rgba(95, 45, 14, 0.842);}
+/* RESPONSIVE PART */
+@media (max-width:1000px){
+    .menu .pull-right{
+        float: none !important;
+    }
+}
+@media (max-width:603px){
+    .p .pull-right{
+        float: none !important;
+    }
+}
+@media (max-width:603px){
+    .carousel .carousel-indicators li{
+        margin-bottom: 580px;
+    }
+}
+@media (max-width:603px){
+     .carousel-control{
+        margin-bottom: 580px;
+    }
+}
+@media (max-width:500px){
+    .outer .pull-right{
+        float: none !important;
+    }
+}
+@media (max-width:500px){
+    .inner h1{
+      padding-left: 10px;
+    }
+    .outer h1{
+        padding-left: 10px;
+      }
+}
+@media (max-width:500px){
+    .cart{
+      margin-right: 60px;
+    }
+}
+@media (max-width:1000px){
+    .back .cont{
+      margin-right: 20px;
+    }
+    .back .cont{
+        padding-left: 25px;
+      }
+}
+@media (max-width:500px){
+    #location{
+      height: 300px;
+    }
+    #location{
+        width: 1000px;
+    }
+    #location{
+        padding-left: 25px;
+      }
+}
+@media (max-width:500px){
+    .det{
+        padding-left: 0px;
+    }
+    .det{
+        margin-left: 1px;
+    }
+    .det{
+        width: 450px;
+    }
+}

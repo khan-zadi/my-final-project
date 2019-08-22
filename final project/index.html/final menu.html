@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Menu</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\Users\aaa\Desktop\final project\css\bootstrap.css">
+<link rel="stylesheet" href="C:\Users\aaa\Desktop\final project\css\style.css">
+</head>
+<body style="background-attachment: fixed;" background="C:\Users\aaa\Desktop\final project\Images\menu\background1.JPG" class="img-responsive">
+       <!-- START HEADER PART -->
+<div class="container-fluid top">
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<img class="i" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\face.PNG" onclick="link()" width="25px" height="25px">
+<img class="ic" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\insta.PNG" onclick="link2()" width="25px" height="25px">
+<img class="ico" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\twi.PNG" onclick="link3()" width="30px" height="30px">
+<img class="icon" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\wi.PNG" onclick="link4()" width="30px" height="30px">
+</div>
+<div class="col-sm-9 text-right contact_info" style="font-size: 15px; color: white;">
+<span class="glyphicon-envelope">info@cafecoffee.pk </span>+92-000000000
+</div>
+</div></div></div>
+<!-- ANOTHER HEADER PART -->
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<img class="logo" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\LOGO.PNG" onclick="logo()" width="200" height="150">
+</div>
+<!-- NAVIGATION PART -->
+<div class="col-sm-7 menu">
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse  navbar-collapse" id="mynavbar">
+<ul class="nav navbar-nav pull-right">
+<li><a style="color: white;" href="C:\Users\aaa\Desktop\final project\index.html\final.html"> Home</a></li>
+<li><a style="color: white;" href="C:\Users\aaa\Desktop\final project\index.html\final about.html"> About</a></li>
+<li><a style="color: white;" href="C:\Users\aaa\Desktop\final project\index.html\final menu.html"> Menu</a></li>
+<li><a style="color: white;" href="C:\Users\aaa\Desktop\final project\index.html\final gallery.html"> Gallery</a></li>
+<li><a style="color: white;" href="C:\Users\aaa\Desktop\final project\index.html\final contact.html">Contact us</a></li>
+</ul></div></nav></div></div></div>
+<!-- END ALL HEADER PART -->
+
+<!-- START CONTAINER PART -->
+<div class="container-fluid">
+<div class="row text-center">
+<h1 style="background-color:rgba(95, 45, 14, 0.842);color:white; font-size:70px;">MENU</h1>
+</div></div></div>
+<div class="container-fluid">
+<div class="container">
+<div class="title-box">
+<h2>Coffee</h2>
+</div></div>
+<div class="row">
+<div class="col-sm-3">   
+<div id="products" style='visibility:visible'>
+<div id="001" data-name="Cafe-Latte" data-price="Rs:560" style="position: absolute;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\Cafe-latte.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute;left:50px; top:300px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('001')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:200px; top: 290px; color: black; font-weight: bold;">
+Cafe-Latte <br> RS:560
+</div>
+<div class="col-sm-3">
+<div id="002" data-name="Espresso" data-price="Rs:450" style="position: absolute; left: 350px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\espresso.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute;left:400px; top:300px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('002')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:550px; top: 290px; color: black; font-weight: bold;">
+Espresso <br> RS:450
+</div>
+<div class="col-sm-3">
+<div id="003" data-name="Cafe-Americano" data-price="Rs:520" style="position: absolute; left: 685px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\Cafe-Americano.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute;left:730px; top:300px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('003')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:850px; top: 290px; color: black; font-weight: bold;">
+Americano <br> RS:520
+</div>
+<div class="col-sm-3">
+<div id="004" data-name="Cappuccino" data-price="Rs:580" style="position: absolute; left: 1020px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\CAPU1.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute;left:1060px; top:300px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('004')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:1180px; top: 290px; color: black; font-weight: bold;">
+Cappuccino <br> RS:580</div>
+</div>
+<div class="col-sm-3">
+<div id="005" data-name="Mochacino" data-price="Rs:540" style="position: absolute;right:-235px; top:400px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\mochacino.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: -15px; top:700px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('005')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:110px; top: 700px; color: black; font-weight: bold;">
+Mochacino <br> RS:540</div>
+</div>
+<div class="col-sm-3">
+<div id="006" data-name="Flat-White" data-price="Rs:490" style="position: absolute; left: 260px; top:400px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\white.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 300px; top:700px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('006')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:470px; top: 700px; color: black; font-weight: bold;">
+Flat-White <br> RS:490</div>
+</div>
+<div class="col-sm-3">
+<div id="007" data-name="long-black" data-price="Rs:510" style="position: absolute; left: 580px; top:400px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\long-black.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 620px; top:700px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('007')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:790px; top: 700px; color: black; font-weight: bold;">
+Long-Black <br> RS:510</div>
+</div>
+</div>
+ <div class="col-sm-3">
+<div id="008" data-name="Affogato" data-price="Rs:600" style="position: absolute; left: 1030px; top: 400px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\hot coffee\affogato.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 1080px; top:700px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('008')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:1220px; top: 700px; color: black; font-weight: bold;">
+Affogato <br> RS:600</div>
+</div>
+</div>       
+<div class="col-sm-3">    
+<div id="009" data-name="Iced Cafe-Americano" data-price="Rs:630" style="position: absolute; left: 50px; top:830px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\cold coffee\iced cafe amerciano.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 90px; top:1130px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('009')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:220px; margin-top: 1130px; color: black; font-weight: bold;">
+Iced Cafe-Americano <br> RS:630</div>
+</div>
+<div class="col-sm-3">    
+<div id="0010" data-name="iced latte with swirl" data-price="Rs:520" style="position: absolute; left: 400px; top:830px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\cold coffee\iced latte with swirl.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 450px; top:1130px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('0010')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:610px; top: 1130px; color: black; font-weight: bold;">
+Iced Latte Swril <br> RS:520</div>
+</div>
+<div class="col-sm-3">    
+<div id="0011" data-name="iced mocha latte" data-price="Rs:550" style="position: absolute; left: 740px; top:830px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\cold coffee\iced-mocha-image-square.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 790px; top:1130px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('0011')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:955px; top: 1130px; color: black; font-weight: bold;">
+Iced Mocha Latte <br> RS:550</div>
+</div>
+<div class="col-sm-3">    
+<div id="0012" data-name="iced latte" data-price="Rs:590" style="position: absolute; left:250px; top:1300px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\cold coffee\iced latte.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 300px; top:1600px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('0012')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:460px; top: 1600px; color: black; font-weight: bold;">
+Iced Latte <br> RS:590</div>
+</div>
+<div class="col-sm-3">    
+<div id="0013" data-name="Vietnames Iced Coffee" data-price="Rs:660" style="position: absolute; left: 550px; top:1300px;" >
+<img class="picture" src="C:\Users\aaa\Desktop\final project\Images\menu\cold coffee\vietnamese iced coffee.JPG" class="img-responsive" width="300px" height="300px">
+</div>
+<div style="position: absolute; left: 600px; top:1600px">
+<img src="C:\Users\aaa\Desktop\final project\Images\menu\k.PNG" width="50px" height="50px" onclick="AddToCart('0013')">
+</div>
+<div style="position: absolute; text-align:right; font-size:18pt; left:720px; top: 1600px; color: black; font-weight: bold;">
+Vietnames Iced Coffee <br> RS:660</div>
+</div>
+</div>
+</div></div></div>
+<div id="TheCart" style="visibility: hidden">
+<div class="box">
+<h1 style="text-align: center; font-size:75px;">Add To Cart</h1>
+<div class="form">
+<button class="shop" onclick="ContinueShopping()">Continue Shopping</button>
+<br><label class="la">COFFEE NAME</label>
+<input id="pro" type="text"><br>
+<label class="la2">QUANTITY</label>
+<input id="qun" type="number" ><br>
+<label class="la3">PRICE</label>
+<input id="rupee" type="number"><br>
+<button class="but" onclick="addItem()">ADD TO CART</button>
+</div>
+<div id="card"></div>
+</div> 
+</div>
+<div class="active" id="overlay"></div></div></div></div>
+<div id="cartItemImages" style="position: absolute; left:75px;">
+</div>
+<!-- END Container Part -->
+
+<!-- START FOOTER PART -->
+<div class="container-fluid footer1">
+<div class="container">
+<div class="col-sm-4 logo1">
+<img class="logo" src="C:\Users\aaa\Desktop\final project\Images\LOGO.PNG" class="img-responsive" onclick="logo()" width="200" height="150">
+</div>
+<div class="col-sm-4">
+<h1>Coffee Cafe</h1>
+<p>
+We hope you enjoy the few minutes or hours you spend with us at Coffee cafe sipping a latte or sharing your words with good company.<br>
+And most importantly, thank you for being awesome.</p>
+<img class="i" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\face.PNG" onclick="link()" width="25px" height="25px">
+<img class="ic" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\insta.PNG" onclick="link2()" width="25px" height="25px">
+<img class="ico" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\twi.PNG" onclick="link3()" width="30px" height="30px">
+<img class="icon" class="img-responsive" src="C:\Users\aaa\Desktop\final project\Images\wi.PNG" onclick="link4()" width="30px" height="30px">
+</div>
+<div class="col-sm-4">
+<h2>Links</h2>
+<ol>
+<li><a href="./final.html">&raquo; Home</a></li>
+<li><a href="./final about.html">&raquo; About</a></li>
+<li><a href="./final menu.html">&raquo; Menu</a></li>
+<li><a href="./final gallery.html">&raquo; Gallery</a></li>
+<li><a href="./final contact.html">&raquo; Contact us</a></li>
+</ol></div></div>
+<div class="container-fluid">
+<div class="row pull-right">
+<p class="p">&copy; Coffee Cafe. All right reserved</p>
+</div></div></div></div>
+<!-- END FOOTER PART -->
+    
+<script type="text/javascript" src="C:\Users\aaa\Desktop\final project\javascript\jquery.js"></script>
+<script type="text/javascript" src="C:\Users\aaa\Desktop\final project\javascript\bootstrap.js"></script>
+<script type="text/javascript" src="C:\Users\aaa\Desktop\final project\javascript\final.js"></script>
+</body>
+</html>
